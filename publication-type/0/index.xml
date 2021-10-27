@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | Jin H. Lee</title>
-    <link>http://localhost:1313/publication/</link>
-      <atom:link href="http://localhost:1313/publication/index.xml" rel="self" type="application/rss+xml" />
-    <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Oct 2021 00:00:00 +0000</lastBuildDate>
+    <title>0 | Jin H. Lee</title>
+    <link>http://localhost:1313/publication-type/0/</link>
+      <atom:link href="http://localhost:1313/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
+    <description>0</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu561487776ef819529aaf9ca68a267374_86492_512x512_fill_lanczos_center_3.png</url>
-      <title>Publications</title>
-      <link>http://localhost:1313/publication/</link>
+      <title>0</title>
+      <link>http://localhost:1313/publication-type/0/</link>
     </image>
-    
-    <item>
-      <title>Learnable latent embeddings for joint behavioral and neural analysis</title>
-      <link>http://localhost:1313/publication/cebra/</link>
-      <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/cebra/</guid>
-      <description></description>
-    </item>
     
     <item>
       <title>Out-of-distribution generalization of internal models is correlated with reward</title>
