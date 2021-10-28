@@ -5,7 +5,7 @@
     <link>http://localhost:1313/publication-type/0/</link>
       <atom:link href="http://localhost:1313/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>http://localhost:1313/media/icon_hu561487776ef819529aaf9ca68a267374_86492_512x512_fill_lanczos_center_3.png</url>
       <title>0</title>
@@ -15,7 +15,7 @@
     <item>
       <title>Out-of-distribution generalization of internal models is correlated with reward</title>
       <link>http://localhost:1313/publication/ssl/</link>
-      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/ssl/</guid>
       <description></description>
     </item>
@@ -23,7 +23,7 @@
     <item>
       <title>Deep Reinforcement Learning for Optimization at Early Stage</title>
       <link>http://localhost:1313/publication/rl_design/</link>
-      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/rl_design/</guid>
       <description></description>
     </item>

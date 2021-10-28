@@ -43,8 +43,16 @@
     <item>
       <title>Out-of-distribution generalization of internal models is correlated with reward</title>
       <link>http://localhost:1313/publication/ssl/</link>
-      <pubDate>Thu, 28 Jan 2021 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/publication/ssl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deep Reinforcement Learning for Optimization at Early Stage</title>
+      <link>http://localhost:1313/publication/rl_design/</link>
+      <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/rl_design/</guid>
       <description></description>
     </item>
     
@@ -123,14 +131,6 @@
 &lt;p&gt;Copyright 2016-present &lt;a href=&#34;https://georgecushen.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;George Cushen&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-modules/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Deep Reinforcement Learning for Optimization at Early Stage</title>
-      <link>http://localhost:1313/publication/rl_design/</link>
-      <pubDate>Tue, 28 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/rl_design/</guid>
-      <description></description>
     </item>
     
     <item>
