@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>3 | Jin H. Lee</title>
-    <link>http://localhost:1313/publication-type/3/</link>
-      <atom:link href="http://localhost:1313/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://jinhl9.github.io/publication-type/3/</link>
+      <atom:link href="https://jinhl9.github.io/publication-type/3/index.xml" rel="self" type="application/rss+xml" />
     <description>3</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 28 Oct 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>http://localhost:1313/media/icon_hu561487776ef819529aaf9ca68a267374_86492_512x512_fill_lanczos_center_3.png</url>
+      <url>https://jinhl9.github.io/media/icon_hu561487776ef819529aaf9ca68a267374_86492_512x512_fill_lanczos_center_3.png</url>
       <title>3</title>
-      <link>http://localhost:1313/publication-type/3/</link>
+      <link>https://jinhl9.github.io/publication-type/3/</link>
     </image>
     
     <item>
       <title>Learnable latent embeddings for joint behavioral and neural analysis</title>
-      <link>http://localhost:1313/publication/cebra/</link>
+      <link>https://jinhl9.github.io/publication/cebra/</link>
       <pubDate>Thu, 28 Oct 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/publication/cebra/</guid>
+      <guid>https://jinhl9.github.io/publication/cebra/</guid>
       <description></description>
     </item>
     
