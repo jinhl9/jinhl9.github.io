@@ -5,7 +5,7 @@
     <link>https://jinhl9.github.io/publication-type/0/</link>
       <atom:link href="https://jinhl9.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 26 Apr 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 20 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://jinhl9.github.io/media/icon_hu561487776ef819529aaf9ca68a267374_86492_512x512_fill_lanczos_center_3.png</url>
       <title>0</title>
@@ -13,18 +13,18 @@
     </image>
     
     <item>
-      <title>Out-of-distribution generalization of internal models is correlated with reward</title>
-      <link>https://jinhl9.github.io/publication/ssl/</link>
-      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
-      <guid>https://jinhl9.github.io/publication/ssl/</guid>
+      <title>Deep Reinforcement Learning for Optimization at Early Stage</title>
+      <link>https://jinhl9.github.io/publication/rl_design/</link>
+      <pubDate>Thu, 20 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://jinhl9.github.io/publication/rl_design/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Deep Reinforcement Learning for Optimization at Early Stage</title>
-      <link>https://jinhl9.github.io/publication/rl_design/</link>
-      <pubDate>Sun, 28 Feb 2021 00:00:00 +0000</pubDate>
-      <guid>https://jinhl9.github.io/publication/rl_design/</guid>
+      <title>Out-of-distribution generalization of internal models is correlated with reward</title>
+      <link>https://jinhl9.github.io/publication/ssl/</link>
+      <pubDate>Mon, 26 Apr 2021 00:00:00 +0000</pubDate>
+      <guid>https://jinhl9.github.io/publication/ssl/</guid>
       <description></description>
     </item>
     
