@@ -18,7 +18,8 @@ social: true  # includes social icons at the bottom of the page
 
 #### Hi, I'm Jin (she/her)!
 
-I am a PhD student at Sainsbury Wellcome Centre supervised by [Andrew Saxe](https://www.saxelab.org/). I am currently based at London.
+
+I am a PhD student at Sainsbury Wellcome Centre supervised by [Andrew Saxe](https://www.saxelab.org/).
 
 At the moment, I am mainly intrigued by compositionality in learning and inference:
 
