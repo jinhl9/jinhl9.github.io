@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2022-10-01 15:59:00-0400
+date: 2023-09-30 16:11:00-0400
 inline: true
 related_posts: false
 ---
 
-Started a PhD journey 🧠🚀
+I joined <a href="https://www.saxelab.org/">Saxe Lab</a> and started a PhD journey 🚀🧠 :))

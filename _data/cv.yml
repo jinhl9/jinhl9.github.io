@@ -12,8 +12,8 @@
   type: time_table
   contents:
     - title: PhD in Neuroscience
-      institution: Sainsbury Wellcome Centre (UCL), London,UK
-      year: 2022-
+      institution: University College London,UK
+      year: 2022 Oct.- 2026 (expected)
       description:
         - Supervised by Andrew Saxe
     - title: M.Sc in Neuroengineering
@@ -36,6 +36,9 @@
 - title: Honors and Awards
   type: time_table
   contents:
+    - year: 2024
+      items:
+        - <Brain Minds and Machines> summer school travel grant + scholarship 
     - year: 2021
       items:
         - 1st Prize, Technical University of Munich Science Hackathon

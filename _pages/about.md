@@ -19,11 +19,11 @@ social: true  # includes social icons at the bottom of the page
 #### Hi, I'm Jin (she/her)!
 
 
-I am a PhD student at Sainsbury Wellcome Centre supervised by [Andrew Saxe](https://www.saxelab.org/).
+I am a PhD student at University College London supervised by [Andrew Saxe](https://www.saxelab.org/).
 
-At the moment, I am mainly intrigued by compositionality in learning and inference:
+At the moment, I am mainly intrigued by compositionality in learning and inference. While compositionality is broad and very general capability that humans have in language acquisition, skill learning and generalization problems, current artificial intelligent systems do not exhibit the same level of compositional ability. 
 
-How do animals discover useful motifs or concepts and flexibly reuse them to solve complex tasks?  
+How do humans discover useful motifs or concepts and flexibly reuse them to solve complex tasks?  
 What is the neural mechanism that supports compositionality?  
 Can we build an artificial intelligence system which exploits compositionality in learning and inference?
 
