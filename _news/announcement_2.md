@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our work <a href="https://www.nature.com/articles/s41586-023-06031-6">CEBRA</a> is out in the world 🦓
+Our work <a href="https://www.nature.com/articles/s41586-023-06031-6">CEBRA</a> is out Nature! 🦓

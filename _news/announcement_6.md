@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I'm giving<a href="https://lifelong-ml.cc/Conferences/2024/program/mainday1"> a tutorial talk in Conference on Lifelong Learning Agents!</a> in August, Pisa. I'll be talking about theoretical approaches used to study continual learning. 
+I'm giving<a href="https://lifelong-ml.cc/Conferences/2024/program/mainday1"> a tutorial talk in Conference on Lifelong Learning Agents!</a> in August, Pisa. I'll be talking about theoretical approaches in continual learning. 

@@ -21,15 +21,16 @@ social: true  # includes social icons at the bottom of the page
 
 I am a PhD student at University College London supervised by [Andrew Saxe](https://www.saxelab.org/).
 
-At the moment, I am mainly intrigued by compositionality in learning and inference. While compositionality is broad and very general capability that humans have in language acquisition, skill learning and generalization problems, current artificial intelligent systems do not exhibit the same level of compositional ability. 
+At the moment, I am mainly intrigued by compositionality in learning and inference. 
+While compositionality is very general capability that humans have in language acquisition, skill learning and generalization, current artificial intelligent systems do not exhibit the same level of compositional ability (or maybe they do?!).
 
 How do humans discover useful motifs or concepts and flexibly reuse them to solve complex tasks?  
-What is the neural mechanism that supports compositionality?  
-Can we build an artificial intelligence system which exploits compositionality in learning and inference?
+How do we evaluate machines exhibiting compositional behavior?
+How does compositionality emerge during learning?
 
 To answer these questions, I aim to study both biological brains and artificial neural networks.   
-I use artificial neural networks to model interesting cognitive/behavioural observations in humans and animals to bring quantitative understanding of the neural mechanisms behind. 
+I use artificial neural networks to model interesting cognitive/behavioural observations in humans and animals to bring quantitative understanding of the mechanism of intelligence.. 
 
-Before starting my PhD journey, I completed my master's degree in TU Munich. I was supervised by [Mackenzie Mathis](https://www.mackenziemathislab.org/) and developed [CEBRA](https://cebra.ai/) for my master's thesis project.
+Before starting my PhD journey, I obtained BSc. Physics at KAIST and I studied Neurosciece for my master, supervised by Mackenzie Mathis and developed [CEBRA](https://cebra.ai/) for my thesis.
 
 See [Research](https:/jinhl9.github.io/research/) for more on previous/ongoing projects. 
