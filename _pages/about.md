@@ -33,4 +33,4 @@ I use artificial neural networks to model interesting cognitive/behavioural obse
 
 Before starting my PhD journey, I obtained BSc. Physics at KAIST and I studied Neurosciece for my master, supervised by Mackenzie Mathis and developed [CEBRA](https://cebra.ai/) for my thesis.
 
-See [Research](https:/jinhl9.github.io/research/) for more on previous/ongoing projects. 
+See Research section for more on previous/ongoing projects. 
