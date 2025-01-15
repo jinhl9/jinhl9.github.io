@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Our porject on analyzing phase transition in representational geometry in LLMs during the pre-training phase is out <a href="https://arxiv.org/abs/2410.01444"> here</a>.
+Our project on analyzing phase transition in representational geometry in LLMs during the pre-training phase is out <a href="https://arxiv.org/abs/2410.01444"> here</a>.
