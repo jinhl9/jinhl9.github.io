@@ -25,11 +25,14 @@ At the moment, I am mainly intrigued by compositionality in learning and inferen
 Compositionality is very general capability that humans have in language acquisition, skill learning and generalization and seems like we might live in the time that artificial intelligent systems exhibit similar ability very soon (or already).
 
 I am interested in: 
+
 How do biololgical and artificial networks discover useful motifs or concepts and flexibly reuse them to solve complex tasks?  
+
 How do we evaluate machines exhibiting compositional behavior?
+
 How does compositionality emerge during learning?
 
-To answer these questions, I use both theoretical and empirical approach.    
+To answer these questions, I use both theoretical and empirical approach to study.     
 Before starting my PhD journey, I obtained BSc. Physics at KAIST and I studied Neurosciece for my master, supervised by Mackenzie Mathis and developed multi-modal representation learning method [CEBRA](https://cebra.ai/) for my thesis.
 
 See Research section for more on previous/ongoing projects. 
