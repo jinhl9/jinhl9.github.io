@@ -1,0 +1,496 @@
+<html>
+
+<head>
+
+    <title>이진화; Lee, Jin Hwa</title>
+    <style>
+        a {
+            color: #1772d0;
+            text-decoration: none;
+        }
+
+        .intro a:focus,
+        .intro a:hover {
+            text-decoration: underline;
+        }
+
+
+        .links-outreach-publications {
+            margin-top: .5em;
+            text-align: center;
+        }
+    </style>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .top-header {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            width: 100%;
+            min-width: 600px;
+            margin: auto;
+        }
+
+        .name&navbar {
+            display: flex;
+            flex-direction: column;
+            /* Stack name and navbar vertically */
+            align-items: flex-start;
+            /* Align content to the start */
+            margin-left: 1em;
+            /* Move the name closer to the image */
+
+        }
+
+        .photo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 200px;
+            padding-right: 2em;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: start;
+            gap: 1.5em;
+            /* Add spacing between navbar items */
+            font-family: "Borel", serif;
+            font-weight: 400;
+            /* You can try 300 for an even lighter look */
+            margin-top: 0.5em;
+            /* Add slight spacing between the name and navbar */
+            /* padding-left: 2em; */
+        }
+
+        .photo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 200px;
+            height: 200px;
+            /* style="float: left; margin-right: 2em; width: 200px; height: 200px; justify-content: center;   align-items: center;    display: flex;" */
+        }
+
+        .socials {
+            display: flex;
+            width: 50%;
+            justify-content: space-evenly;
+            align-items: center;
+            margin: 0 auto;
+
+        }
+
+        /* LINKS */
+        .nav-item {
+            text-decoration: none;
+            color: #333;
+            font-weight: 400;
+            font-size: 1rem;
+            cursor: pointer;
+            /* changes mouse pointer on hover */
+            position: relative;
+            padding: 0.25rem 0;
+            /* slight vertical padding for the underline effect */
+            transition: color 0.2s ease;
+        }
+
+        /* HOVER EFFECT */
+        .nav-item::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            height: 2px;
+            width: 0;
+            background-color: currentColor;
+            /* use the text color for the underline */
+            transition: width 0.2s ease;
+        }
+
+        .nav-item:hover {
+            color: #007bff;
+            /* optional color change on hover */
+        }
+
+        .nav-item:hover::after {
+            width: 100%;
+            /* animate underline to full width on hover */
+        }
+
+        .nav-item.active {
+            color: #007bff;
+        }
+
+        .nav-item.active::after {
+            width: 100%;
+            /* underline the current page from the start */
+        }
+    </style>
+
+
+    <!---------------------------- Start: Code for icon for the portfolio website (Shown in tab bar) ----------------------------->
+
+    <link rel="icon" type="image/png" href="icons/brain_icon.png">
+    <!------------------------- End: Code for icon for the portfolio website (Shown in tab bar) ------------------------------------>
+
+
+</head>
+
+<body>
+
+    <div style="width: 50%; min-width: 600px; overflow: hidden; margin: auto;">
+
+        <!-- ///////////////////// -->
+
+
+        <div class="top-header">
+            <div class="photo-container">
+                <img src="./images/photo_jinhwalee.jpeg" width="100%" style="border-radius: 0%">
+            </div>
+            <div class="name&navbar">
+                <div>
+                    <h1>Jin Hwa Lee</h1>
+                </div>
+
+                <div class="navbar">
+                    <a href="#" class="nav-item">About</a>
+                    <a href="#news" class="nav-item">News</a>
+                    <a href="#research" class="nav-item">Research</a>
+                    <a href="#CV" class="nav-item">Learn More</a>
+                    <a href="#misc" class="nav-item">Misc</a>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- NAVIGATION BAR -->
+
+
+
+        <!-- Start: Top Section: Introduction  -->
+        <div class="intro" style="margin-top: 2em;">
+            <div style="font-size: medium; height: 250px; display: table-cell; vertical-align: middle;">
+
+                Hi, I'm Jin, a 3rd year PhD student at UCL, supervised by Andrew Saxe.
+                <br>
+                Broadly, my research focuses on understanding of neural network models and their intelligent behaviors.
+                How does the structure of data and the inductive biases of models shape learning?
+                Particularly, how compositional structure of the tasks (such as skill composition) or data (such as
+                language) might emerge from this interplay.
+                I take multiple approaches such as theory, like tools from statistical physics, or empirical studies of
+                large language models.
+                <br>
+                Recently, I've been interested in more pressing problem: how can we steer increasingly capable AI
+                systems toward outcomes we actually want?
+                I'm seeking mentorship and community in AI alignment research, driven by a belief that it’s a critical
+                challenge for all of the citizens and it is where my curiosity and skills can make a meaningful
+                contribution.
+                <br><br>
+                You can reach me via: jin.lee.22 at ucl dot ac dot uk
+
+            </div>
+
+            <div class="socials">
+                <a href="mailto: jin.lee.22@ucl.ac.uk" target="_blank">[ Email</a>
+                <a href="https://scholar.google.it/citations?view_op=list_works&hl=en&hl=en&user=QHV2vNgAAAAJ&scilu=&scisig=ACseELIAAAAAZGira_sMx0myVMLbCp8KXRr3J7w&gmla=AHoSzlVYdvQeRVfnxEKQ4GWruYOSnUSE0QrUB-R0fJMWi9BJO09W_MG2oIoz7Vu8HloRaxzBBwrUTargOCyEjjJUyxXkKtDB-4bkWso&sciund=8225781863899032735"
+                    target="_blank">Google Scholar</a>
+                <a href="https://github.com/jinhl9" target="_blank">Github</a>
+                <a href="./CV/CV_AcademicCVJinLee_April25.pdf" target="_blank">CV ]</a>
+            </div>
+        </div>
+
+
+
+        <!-- End: Top Section: Introduction  -->
+        <!-- Start: Section: Publications  -->
+        <div style="margin-top: 2em; clear: left;" id="news">
+            <h2>News</h2>
+            <div style="font-size: large;">
+                <!-- TODO: Change details to your awards. Copy paste the span element to add more subsections (Ex: More awards) -->
+                <span style="display: block">
+                    &#8226 I'm invited to give a talk at <b>COSYNE 2025</b> workshop on compositionality. See you in
+                    Mont-Tremblant! (2025 Apr)
+                </span>
+                <span style="display: block; margin-top: .5em; white-space: nowrap;">
+                    &#8226 I'm invited to visit UPF computational linguistics group led by Marco Baroni, digging up more
+                    linguistic compositionality in LLMs! (2025 Feb)
+                </span>
+                <span style="display: block; margin-top: .5em; white-space: nowrap;">
+                    &#8226 I'm giving a tutorial on <b>Theoretical Advances in Continual Learning</b> at COLLAS 2024, in
+                    Pisa. (2024 July)
+                </span>
+
+            </div>
+        </div>
+
+
+        <!-- Start: Section: Publications  -->
+        <div style="margin-top: 2em; clear: left;" id="research">
+            <h2>Research</h2>
+            <div>
+                <div style="float: left; margin-right: 2em; width: 250px; height: 150px;">
+                    <!-- TODO: Change the source to a pic of your publication  -->
+                    <img src="./images/icl_curricula.png" width="100%"
+                        style="padding: 1px; border:1px solid #021a40; background-color: #ffcccc">
+                </div>
+
+                <div style="margin-left: 2em;">
+                    <!-- TODO: Change the below details to your publications  -->
+                    <span style="font-weight: bold; color: #000;">Distinct Computations Emerge From Compositional
+                        Curricula in In-Context Learning</span>
+                    <br>
+                    <div style="margin-top:.5em;">
+                        <span style="font-weight: bold;">JH. Lee</span>, A. Lampinen, A. Singh* and A. Saxe*
+                    </div>
+                    <div style="margin-top:.5em;">
+                        <span style=" display: block; font-style:italic"> Workshop on Spurious Correlation and Shortcut
+                            Learning, ICLR 2025 </span>
+                    </div>
+
+                    <div class="links-outreach-publications">
+                        <a href="https://openreview.net/forum?id=oo5TNikeJl" target="_blank">[Paper]</a>
+                        <a href="WIP" target="WIP">[Code WIP]</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- TODO: Remove this section if no more publications, or copy paste the div for adding more publications -->
+            <div>
+                <div style="float: left; margin-right: 2em; width: 250px; height: 150px;">
+                    <!-- TODO: Change the source to a pic of your publication  -->
+                    <img src="./images/id_modeltime.png" width="100%"
+                        style="padding: 1px; border:1px solid #021a40; background-color: #ffcccc">
+                </div>
+
+                <div style="margin-left: 2em;">
+                    <!-- TODO: Change the below details to your publications  -->
+                    <span style="font-weight: bold; color: #000;">Geometric Signatures of Compositionality Across a
+                        Language Model's Lifetime</span>
+                    <br>
+                    <div style="margin-top:.5em;">
+                        <span style="font-weight: bold;">JH. Lee*</span>, T. Jiralerspong*, L. Yu, Y. Bengio and E.
+                        Cheng
+                    </div>
+                    <div style="margin-top:.5em;">
+                        <span style=" display: block; font-style:italic"> Under review </span>
+                    </div>
+
+                    <div class="links-outreach-publications">
+                        <a href="https://arxiv.org/abs/2410.01444" target="_blank">[Paper]</a>
+                        <a href="https://github.com/superkaiba/llm_compositionality" target="_blank">[Code]</a>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div style="float: left; margin-right: 2em; width: 250px; height: 150px;">
+                    <!-- TODO: Change the source to a pic of your publication  -->
+                    <img src="./images/corners.png" width="100%"
+                        style="padding: 1px; border:1px solid #021a40; background-color: #ffcccc">
+                </div>
+
+                <div style="margin-left: 2em;">
+                    <!-- TODO: Change the below details to your publications  -->
+                    <span style="font-weight: bold; color: #000;">Range, not Independence, Drives Modularity in
+                        Biologically Inspired Representations</span>
+                    <br>
+                    <div style="margin-top:.5em;">
+                        W. Dorrell*, Hsu. K*, L. Hollingsworth, <span style="font-weight: bold;">JH. Lee</span>, J. Wu,
+                        C. Finn, PE. Latham, T. Behrens, TEJ. Whittington
+                    </div>
+                    <div style="margin-top:.5em;">
+                        <span style=" display: block; font-style:italic"> ICLR 2025 </span>
+                    </div>
+
+                    <div class="links-outreach-publications">
+                        <a href="https://arxiv.org/abs/2410.06232" target="_blank">[Paper]</a>
+                        <a href="https://github.com/kylehkhsu/modular" target="_blank">[Code]</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div style="float: left; margin-right: 2em; width: 250px; height: 150px;">
+                    <!-- TODO: Change the source to a pic of your publication  -->
+                    <img src="./images/shaping.png" width="100%"
+                        style="padding: 1px; border:1px solid #021a40; background-color: #ffcccc">
+                </div>
+
+                <div style="margin-left: 2em;">
+                    <!-- TODO: Change the below details to your publications  -->
+                    <span style="font-weight: bold; color: #000;">Why Do Animals Need Shaping? A Theory of Task
+                        Composition and Curriculum Learning</span>
+                    <br>
+                    <div style="margin-top:.5em;">
+                        <span style="font-weight: bold;">JH. Lee</span>, SS. Mannelli, A. Saxe
+                    </div>
+                    <div style="margin-top:.5em;">
+                        <span style=" display: block; font-style:italic"> ICML 2024 </span>
+                    </div>
+
+                    <div class="links-outreach-publications">
+                        <a href="https://arxiv.org/abs/2402.18361" target="_blank">[Paper]</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div style="float: left; margin-right: 2em; width: 250px; height: 150px;">
+                    <!-- TODO: Change the source to a pic of your publication  -->
+                    <img src="./images/cebra.png" width="100%"
+                        style="padding: 1px; border:1px solid #021a40; background-color: #ffcccc">
+                </div>
+
+                <div style="margin-left: 2em;">
+                    <!-- TODO: Change the below details to your publications  -->
+                    <span style="font-weight: bold; color: #000;">Learnable latent embeddings for joint behavioural and
+                        neural analysis</span>
+                    <br>
+                    <div style="margin-top:.5em;">
+                        Steffen Schneider*, <span style="font-weight: bold;">JH. Lee*</span>, MW. Mathis
+                    </div>
+                    <div style="margin-top:.5em;">
+                        <span style=" display: block; font-style:italic"> Nature </span>
+                    </div>
+
+                    <div class="links-outreach-publications">
+                        <a href="https://www.nature.com/articles/s41586-023-06031-6" target="_blank">[Paper]</a>
+                        <a href="https://github.com/AdaptiveMotorControlLab/cebra" target="_blank">[Code]</a>
+                        <a href="https://cebra.ai/" target="_blank">[Website]</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div style="float: left; margin-right: 2em; width: 250px; height: 150px;">
+                    <!-- TODO: Change the source to a pic of your publication  -->
+                    <img src="./images/lstm.png" width="100%"
+                        style="padding: 1px; border:1px solid #021a40; background-color: #ffcccc">
+                </div>
+
+                <div style="margin-left: 2em;">
+                    <!-- TODO: Change the below details to your publications  -->
+                    <span style="font-weight: bold; color: #000;">Deep Reinforcement Learning for Optimization at Early
+                        Design Stages</span>
+                    <br>
+                    <div style="margin-top:.5em;">
+                        Lorenzo Servadei, <span style="font-weight: bold;">JH. Lee</span>, JAA. Medina, M. Werner, S.
+                        Hochreiter, W. Ecker, R. Wille
+                    </div>
+                    <div style="margin-top:.5em;">
+                        <span style=" display: block; font-style:italic"> IEEE Design & Test </span>
+                    </div>
+
+                    <div class="links-outreach-publications">
+                        <a href="https://ieeexplore.ieee.org/abstract/document/9687589" target="_blank">[Paper]</a>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div style="float: left; margin-right: 2em; width: 250px; height: 150px;">
+                    <!-- TODO: Change the source to a pic of your publication  -->
+                    <img src="./images/morph.png" width="100%"
+                        style="padding: 1px; border:1px solid #021a40; background-color: #ffcccc">
+                </div>
+
+                <div style="margin-left: 2em;">
+                    <!-- TODO: Change the below details to your publications  -->
+                    <span style="font-weight: bold; color: #000;">Out-of-distribution generalization of internal models
+                        is correlated with reward</span>
+                    <br>
+                    <div style="margin-top:.5em;">
+                        KS. Mann*, Steffen Schneider*, A. Chiappa, <span style="font-weight: bold;">JH. Lee</span>, M.
+                        Bethge, A. Mathis, MW. Mathis
+                    </div>
+                    <div style="margin-top:.5em;">
+                        <span style=" display: block; font-style:italic"> Self-Supervision for Reinforcement Learning
+                            Workshop, ICLR 2021 </span>
+                    </div>
+
+                    <div class="links-outreach-publications">
+                        <a href="https://www.researchgate.net/profile/Khushdeep-Singh-Mann/publication/351461133_out_of_distribution_generalization_of_internal_models_is_correlated_with_reward/links/60997188458515d3150f0154/out-of-distribution-generalization-of-internal-models-is-correlated-with-reward.pdf"
+                            target="_blank">[Paper]</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End: Section: Publications  -->
+
+        <!-- TODO: Change the below from 'Awards' to any other thing you want to mention. Like 'Reviewer / News'. Copy paste the div to add more such sections  -->
+
+
+        <div style="margin-top: 2em; clear: left;" id="CV">
+            <h2>Learn More</h2>
+
+            <div style="font-size: large;">
+
+                <!-- TODO: Put source of your CV.  -->
+                <span style="display: block">
+                    If you want to learn more about me, here is a <b><a href="./CV/CV_AcademicCVJinLee_April25.pdf"
+                            target="_blank">2 pages of paper me</a></b>
+                </span>
+
+                <!-- TODO: Uncomment the below code if you want to link other handles (Github/LinkedIn/Twitter etc.)  -->
+                <!-- 
+                <span style="display: block; margin-top: .5em; white-space: nowrap;">
+                    &#8226 My <b><a href="https://www.linkedin.com/in/richidubey/" target="_blank">LinkedIn</a></b> Profile
+                </span> -->
+
+                <!-- 
+                <span style="display: block; margin-top: .5em; white-space: nowrap;">
+                    &#8226 My <b><a href="https://www.twitter.com/in/richidubey/" target="_blank">Twitter</a></b> Profile
+                </span> -->
+            </div>
+        </div>
+
+
+
+        <div style="margin-top: 2em; clear: left;" id="misc">
+            <h2>And More...</h2>
+
+            <div style="font-size: large;">
+
+                <span style="display: block">
+                    Believe me or not, I chose to live in London where there's absolute absence of mountains but I love
+                    hiking and nature.
+                    <br>
+                    I'm on my way to become a climber (but still have a long way to go).
+                    <br>
+                    I also play pinao, mostly classical pieces but I am too shy to post any videos of me playing.
+                    <br>
+                    I'm a dog person, and I have a dog named <b><a href="./images/dongdong.pdf" target="_blank">Dong
+                            Dong</a></b>(it means nothing but sounds very cute in Korean).
+                    <br>
+                    I have opinions on a lot of things, but I try to keep them to in-person converations.
+                    <br>
+                    I try not to take myself too seriously.
+                    <br>
+
+                </span>
+
+                <!-- 
+                <span style="display: block; margin-top: .5em; white-space: nowrap;">
+                    &#8226 My <b><a href="https://www.linkedin.com/in/richidubey/" target="_blank">LinkedIn</a></b> Profile
+                </span> -->
+
+                <!-- 
+                <span style="display: block; margin-top: .5em; white-space: nowrap;">
+                    &#8226 My <b><a href="https://www.twitter.com/in/richidubey/" target="_blank">Twitter</a></b> Profile
+                </span> -->
+            </div>
+        </div>
+
+
+        <div style="margin-top: 3em; font-size: x-small; float: right;">
+            Design from <a href="https://github.com/richidubey/Simple-Minimalistic-Academic-Portfolio/"
+                target="_blank">Simple Minimalistic Academic Portfolio</a>.
+        </div>
+
+
+    </div>
+</body>
+
+</html>
